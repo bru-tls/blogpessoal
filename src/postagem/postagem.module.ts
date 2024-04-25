@@ -14,4 +14,4 @@ exports: [TypeOrmModule]
 
 })
 
-export class  PostagemModules{ }
+export class  PostagemModule{ }
