@@ -91,8 +91,6 @@ expect(200)
 
 });
 
-
-
 it('06 - Deve listar por ID', async () => {
   const resposta = await request(app.getHttpServer())
    .get('/usuarios/id')
