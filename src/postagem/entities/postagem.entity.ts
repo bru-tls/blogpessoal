@@ -4,7 +4,7 @@ import { Tema } from "../../tema/entities/tema.entity";
 import { Usuario } from "../../usuario/entities/usuario.entity";
 import { ApiProperty } from "@nestjs/swagger";
 
-@Entity({name:"tb_postagem"})
+@Entity({name: "tb_postagem"})
 export class Postagem{
 
 @ApiProperty()  
